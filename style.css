@@ -1,3 +1,12 @@
+main section {
+  min-height: 100vh;
+}
+
+#hero-1 {
+  background-color: black;
+  color: white;
+}
+
 img {
   width: 100%;
   object-fit: cover;
