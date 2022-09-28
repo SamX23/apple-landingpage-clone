@@ -25,7 +25,6 @@ li {
   background-color: none;
   margin-top: 5px;
   margin-bottom: 5px;
-
 }
 .box {
   padding: 2px;
@@ -43,18 +42,18 @@ li {
 }
 .flex-col {
   margin: 2px;
-padding: 10px;
-background-color: silver;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-color: black;
-box-sizing:border-box;
-width: 49.5%;
-height: auto;
-text-align: center;
+  padding: 10px;
+  background-color: silver;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+  box-sizing: border-box;
+  width: 49.5%;
+  height: auto;
+  text-align: center;
 }
 i {
-  color:white;
+  color: white;
 }
