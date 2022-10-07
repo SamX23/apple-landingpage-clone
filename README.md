@@ -1,7 +1,9 @@
-## Slicing landing page coaching
+# Slicing landing page coaching
+
+## Instruction
 
 Create a clone of apple website using bootstrap 5
 
-Style - https://getbootstrap.com/docs/5.2/getting-started/introduction/
+Style - <https://getbootstrap.com/docs/5.2/getting-started/introduction/>
 
-Icons - https://fontawesome.com/icons
+Icons - <https://fontawesome.com/icons>
