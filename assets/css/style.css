@@ -6,6 +6,10 @@ nav {
   background-color: black;
   padding: 5px 0;
   text-align: center;
+  color: white;
+}
+.nav-item {
+  color: white;
 }
 li {
   list-style: none;
@@ -56,4 +60,15 @@ li {
 }
 i {
   color: white;
+}
+#iphone-14-pro {
+  background-color: none;
+}
+.footer-text1 {
+  float: left;
+  margin: 15px;
+  padding: 15px;
+}
+.footer-text {
+  float: left;
 }
