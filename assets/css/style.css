@@ -56,8 +56,8 @@ nav .nav-link {
 }
 .flex-col {
   margin: 2px;
-  padding: 10px;
-  background-color: silver;
+  padding: 5px;
+  background-color: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,7 +94,7 @@ i {
   z-index: 2;
 }
 
-#iphone-14-pro .section-background {
+.section-background {
   z-index: 1;
   position: absolute;
   height: 100%;
@@ -108,6 +108,15 @@ i {
 .section-content {
   pointer-events: none;
   color: white;
+  position: relative;
+  width: 100%;
+  padding: 1rem 0;
+  z-index: 3;
+}
+
+.section-content-1 {
+  pointer-events: none;
+  color: black;
   position: relative;
   width: 100%;
   padding: 1rem 0;
@@ -141,5 +150,9 @@ i {
   padding: 15px;
 }
 .footer-text {
+  float: left;
+}
+
+.col-link {
   float: left;
 }
