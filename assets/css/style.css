@@ -56,8 +56,8 @@ nav .nav-link {
 }
 .flex-col {
   margin: 2px;
-  padding: 10px;
-  background-color: silver;
+  padding: 5px;
+  background-color: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,6 +114,103 @@ i {
   z-index: 3;
 }
 
+#iphone-14 .section-background {
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  object-fit: cover;
+}
+
+#apple-watch-ultra .section-background {
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  object-fit: cover;
+}
+
+#airpods-pro .section-background {
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  object-fit: cover;
+}
+
+#apple-watch-series8 .section-background {
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  object-fit: cover;
+}
+
+#apple-watch-se .section-background {
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  object-fit: cover;
+}
+
+#apple-fitness .section-background {
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  object-fit: cover;
+}
+
+#macbook-air .section-background {
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  object-fit: cover;
+}
+
+#apple-card .section-background {
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  object-fit: cover;
+}
+
+.section-content-1 {
+  pointer-events: none;
+  color: black;
+  position: relative;
+  width: 100%;
+  padding: 1rem 0;
+  z-index: 3;
+}
+
 .section-title {
   font-weight: 800;
   margin: 0;
@@ -141,5 +238,9 @@ i {
   padding: 15px;
 }
 .footer-text {
+  float: left;
+}
+
+.col-link {
   float: left;
 }
