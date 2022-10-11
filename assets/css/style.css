@@ -94,7 +94,7 @@ i {
   z-index: 2;
 }
 
-#iphone-14-pro .section-background {
+.section-background {
   z-index: 1;
   position: absolute;
   height: 100%;
@@ -112,94 +112,6 @@ i {
   width: 100%;
   padding: 1rem 0;
   z-index: 3;
-}
-
-#iphone-14 .section-background {
-  z-index: 1;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  object-fit: cover;
-}
-
-#apple-watch-ultra .section-background {
-  z-index: 1;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  object-fit: cover;
-}
-
-#airpods-pro .section-background {
-  z-index: 1;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  object-fit: cover;
-}
-
-#apple-watch-series8 .section-background {
-  z-index: 1;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  object-fit: cover;
-}
-
-#apple-watch-se .section-background {
-  z-index: 1;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  object-fit: cover;
-}
-
-#apple-fitness .section-background {
-  z-index: 1;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  object-fit: cover;
-}
-
-#macbook-air .section-background {
-  z-index: 1;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  object-fit: cover;
-}
-
-#apple-card .section-background {
-  z-index: 1;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  object-fit: cover;
 }
 
 .section-content-1 {
