@@ -9,10 +9,11 @@ nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 1rem;
+  justify-content: center;
+  padding: 0.6rem;
   text-align: center;
   opacity: 0.6;
+
 }
 
 nav ul {
@@ -155,4 +156,24 @@ i {
 
 .col-link {
   float: left;
+}
+
+.ways-to-shop {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.copyright ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
 }
