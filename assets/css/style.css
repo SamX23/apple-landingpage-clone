@@ -9,26 +9,26 @@ nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 40;
   padding: 0.6rem;
   text-align: center;
   opacity: 0.6;
-
+  background-color: rgb(51, 51, 51);
+  opacity: 0.9;
 }
 
 nav ul {
   margin: 0 0.5rem;
   padding: 0;
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
   list-style: none;
 }
 
 nav .nav-link {
   color: white;
-}
-
-.nav-item {
 }
 
 .flex-container {
@@ -176,4 +176,17 @@ i {
   display: flex;
   flex-direction: row;
   list-style: none;
+}
+
+footer {
+  background-color: rgb(245, 245, 247);
+}
+
+@media (max-width: 850px) {
+  nav {
+    justify-content: center;
+  }
+  nav ul {
+    display: none;
+  }
 }
